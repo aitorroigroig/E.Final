@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 95%;
+}
+
+.background-image {
+    background-image: url('Menu.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Mantén esta parte en tu archivo CSS */
+/* Mantén esta parte en tu archivo CSS */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.nav-left,
+.nav-right {
+    margin: 0;
+}
+
+.nav-right {
+    margin-left: 10px; /* Ajusta este valor según tus necesidades */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 10px; /* Ajusta este valor según tus necesidades */
+    display: inline-block;
+}
